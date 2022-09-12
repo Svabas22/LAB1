@@ -20,12 +20,23 @@
         android:id="@+id/btnChangeText"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="16dp"
+        android:onClick="btnClick1"
         android:text="Pakeisti teksta"
         android:visibility="visible"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtMain"
-        android:onClick="btnClick" />
+        app:layout_constraintTop_toBottomOf="@+id/txtMain" />
+
+    <Button
+        android:id="@+id/btnChangeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="76dp"
+        android:onClick="btnClick2"
+        android:text="Pakeisti spalva"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMain" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
